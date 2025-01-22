@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* background-image: url(../assets/bg.png); */
+  /* background-color: rgba(255, 255, 255, 0.815); */
+  /* width: 1160px; */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+.display-flex{
+    display: flex;
+    }
+    
+    .school-head{
+        justify-content:space-between;
+        width: 1160px;
+        margin: 0 auto;
+        /* border: 1px solid tan; */
+        border-bottom: 2px solid tomato;
+        border: none;
+        align-items: center;
+    }
+    .school-img{
+        width: 43px;
+        height: 43px;
+    }
+    .school{
+    align-items: center;
+    gap:1rem;
+    }
+    .school-tytle{
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .school-details{
+        list-style: none;
+        /* border: 1px solid tomato; */
+        gap: 1.9rem;
+        font-size: 15px;
+        font-weight: 500;
+       
+    }
+    .school-details-text{
+        text-decoration: none;
+        
+    }
+    .home{
+        color: orange;
+    }
+    .about{
+        color: skyblue;
+    }
+    .facilities{
+        color: #05D4DF;
+    }
+    .admission {
+        color: #5D58EF;
+    }
+    .school-btn-about{
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    .school-btn{
+        width: 120px;
+        height: 32px;
+        background-color: orange;
+        color: white;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+        /* margin-left: -165px; */
+    }
+    .school-btn-img{
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+ /* school end */
+
+ /* vision start */
+ .vision {
+    width: 1160px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    align-items: center;
+ }
+.vision-nav{
+    /* border:1px solid tomato; */
+}
+.vision-tytle{
+    font-weight: 600;
+    font-size: 36px;
+}
+#orange{
+    color: orange;
+}
+#sky-blue{
+    color: skyblue;
+}
+.vision-pra{
+    font-size: 15px;
+    color: #000000a9;
+    /* text-align: center; */
+}
+.vision-btn{
+    width: 120px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+}
+.vision-hero-kids{
+    /* border: 1px solid blue; */
+    height: 500px;
+    width: auto;
+} 
+/* vision end */
+
+/* Curriculum start */
+.Curriculum{
+    /* background-image: url(../assets/bg.png); */
+    /* width: 1160px; */
+    /* width: 100%; */
+    margin: 0 auto;
+
+}
+.Curriculum-main{
+    background-image: url(../assets/bg.png);
+    padding-top: 50px;
+    /* width: auto; */
+      width: 1160px;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+.Curriculum-tytle{
+   
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 50px;
+    width: auto;
+  
+}
+.Curriculum-box-head{
+    /* border: 2px solid brown; */
+    
+    /* gap: 30px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:18px;
+}
+.Curriculum-box-1{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    /* background-color: #DEF5FF; */
+    background: linear-gradient(to bottom,#DEF5FF 5%,#ffffff 50%,white 50%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.144); 
+    /* justify-content: space-around;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+}
+.Curriculum-box-2{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    /* background-color: #DEF5FF; */
+    background: linear-gradient(to bottom,#FFF4DC 5%,#ffffff 50%,white 50%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.144); 
+    /* display: grid; */
+    display: grid;
+    place-items: center;
+
+}
+.Curriculum-box-3{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    /* background-color: #DEF5FF; */
+    background: linear-gradient(to bottom,#F2E8FF 5%,#ffffff 50%,white 50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.158); 
+    /* display: grid; */
+    display: grid;
+    place-items: center;
+}
+
+.Curriculum-box-img{
+    /* height: 80px; */
+    /* width: 80px; */
+    padding-top: 50px;
+    height: 70%;
+    width: auto;
+    
+
+    
+}
+.Curriculum-box-tytle{
+    color:rgba(0, 0, 0, 0.938);
+    font-weight: 600;
+    font-size: 17px;
+    /* text-align: center; */
+    
+   
+}
+.Curriculum-box-pra{
+    font-size: 11.5px;
+    color: #00000085;
+    /* padding-left: 70px;
+    padding-right: 70px; */
+    padding-bottom: 25px; 
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+
+}
+.Curriculum-box-btn-1{
+   /* margin-left: 140px; */
+   border: none;
+   background-color: white;
+   color: #64C8FF;
+   font-weight: 500;
+   font-size: 11px;
+   margin-bottom: 30px;
+   /* margin-left: 150px; */
+}
+.Curriculum-box-btn-2{
+   /* margin-left: 140px; */
+   border: none;
+   background-color: white;
+   color: orange;
+   font-weight: 500;
+   font-size: 11px;
+   margin-bottom: 30px;
+   /* margin-left: 150px; */
+}
+.Curriculum-box-btn-3{
+   /* margin-left: 140px; */
+   border: none;
+   background-color: white;
+   color: #8700FF;
+   font-weight: 600;
+   font-size: 11px;
+   margin-bottom: 30px;
+   /* margin-left: 150px; */
+}
+
+
+
+
+
+
+.Stories-head-section{
+  
+    background-image:url(../assets/bg.png);
+    /* background:linear-gradient(rgb(255, 255, 255),rgb(207, 146, 146)), 
+    url(../assets/bg.png)center; */
+    background: linear-gradient(to bottom,rgba(250, 255, 251, 0.644),rgba(241, 253, 243, 0.644) 50%,rgba(224, 253, 229, 0.644) 50%);
+    
+}
+.Stories{
+    display: flex;
+    gap: 10px;
+   
+}
+.Stories-grid{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 15px;
+}
+.Stories-head{
+    /* background-image: url(../assets/bg.png); */
+    /* width: 1160px; */
+    /* margin: 0 auto; */
+  
+}
+.Stories-h2{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 35px;
+}
+.Stories-h4{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Stories-pra{
+    text-align: center;
+    font-size: 10px;
+}
+.Stories-classroom-1{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.Stories-classroom-2{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.Stories-classroom-3{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.Stories-classroom-4{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.Stories-classroom-5{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.Stories-classroom-img{
+width: 100%;
+border-radius: 10px;
+}
+.Stories-btn{
+    /* background-color: #05D4DF; */
+    /* height: 120px; */
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.Stories-btn-view{
+
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+/* end */
+
+/* Education */
+.Education{
+background-color: #01ACFD;
+justify-content: space-evenly;
+height: 300px;
+width: 100%;
+align-items: center;
+
+
+
+}
+.Education-kids{
+    /* border: 1px solid tomato; */
+    padding-bottom: 65px;
+    
+    
+}
+.Education-School{
+    /* border: 1px solid teal; */
+    color: white;
+    
+}
+.Education-Keep{
+    /* border: 1px solid rgb(128, 0, 122); */
+    padding-bottom: 110px;
+    
+}
+.Education-kids-logo{
+    justify-content: center;
+}
+.Education-kids-logo-img{
+   width: 40px;
+   height:60px;
+   
+ 
+}
+.Education-kids-logo-h3{
+    font-weight: 500;
+    color: white;
+}
+.Education-pra{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    /* white-space: per-line; */
+   width: 200px;
+    
+   
+}
+.Education-School-details{       
+ list-style: none;
+     
+
+}
+.Education-School-details-text{
+    text-decoration: none;
+    color: #F2E8FF;
+    font-size: 12px;
+    
+}
+.Education-School-tytle{
+    text-align: end;
+    padding-left: 35px;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+.Education-Keep-tytle{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+}
+.Education-Keep-img{
+    height: 20px;
+    
+
+    
+}
+
+
+
+
+  /* mobile responsibe */
+@media screen and (max-width:576px){
+   
+    .school-tytle, .school-details, .school-btn {
+        display: none;
+    }
+    .school-btn-img{
+        display: block;
+        
+    }
+ 
+    .school-head{
+        border-bottom:1px solid orange;
+        width: 100%; 
+    }
+    .vision-hero-kids{
+        height: 430px;
+        width: auto;
+        margin-left: 2px;
+      }
+  .vision{
+    flex-direction:column-reverse;
+    width: 100%;
+    
+  }
+ 
+  .Curriculum-box-head{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+ }
+ .Curriculum-tytle{
+width: 400px;
+font-size: 25px;
+height: 40px;
+}
+.Curriculum-main{
+    width: auto;
+}
+.Stories-grid{
+    grid-template-columns: repeat(2,1fr);
+}
+.Stories-classroom-1{
+  display: none;  
+}
+.Education{
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+}
+.Education-Keep{
+    padding-left: 42px;
+}
+.Education-School{
+    /* padding-right: 200px; */
+}
+.Education-kids{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Education-pra{
+    padding-left: 30px;
+    width: 100%;
+}
+.Education-kids-logo{
+    padding-right: 190px;
+}
+}
